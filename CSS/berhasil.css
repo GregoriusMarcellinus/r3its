@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    font-family: Plus Jakarta Sans;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+
+    background-color: #F4F8F7;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-lupapass{
+    display: block;
+    border: 1px ;
+    width: 435px;
+    height: 442px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transition: all 0.2s ease-out;
+    
+}
+.card-lupapass i{
+    margin-left: 40%;
+    font-size: 80px;
+    margin-top: 50px;
+    color: #39A125;
+}
+.terkirim{
+
+ 
+    flex-shrink: 0;
+    color: #39A125;
+    font-family: Plus Jakarta Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 10px;
+
+}
+
+.card-lupapass p{  
+    margin-top: 20px;
+    color: #A6A4A8;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.kembali-login{
+    display: flex;
+    justify-content: center;
+    margin: -10px 3 15px;
+}
+
+.kembali-login label input{
+    accent-color: #c80000;
+    margin-right: 5px ;
+   }
+.kembali-login label {
+    color: #A6A4A8;
+   
+   }
+.kembali-login p {
+    margin-top: 20px;
+    color: #A6A4A8;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.kembali-login a{
+        color:#39A125;
+       text-decoration: none;
+       margin-top: 20px;
+       margin-left: 5px;
+   }
+.kembali-login a:hover{
+        color: #83C530;
+       text-decoration: underline;
+   }
+
+
+.border-hijau{
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 460px;
+    height: 447px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    border: 1px solid #39A125;
+}
+
+ 
+

@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Plus Jakarta Sans;
+}
+
+body{
+    display: flex;
+    height:120vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #F4F8F7;
+}
+.container{
+    position: absolute;
+    max-width: 1000px;
+    width: 1000px;
+    /* width:  100%; */
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    padding-inline: 45px;
+    border-radius: 0px 15px 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    z-index: 1;
+}
+
+.container form .detail-pengguna{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+
+.container .nav{
+    display: flex;
+	justify-content: right;
+	padding:10px;
+}
+.header{
+    position: relative;
+    background-color:#39A125;
+    padding: 15px;
+    border-radius: 0px 15px 15px 0px;
+}
+.header-title{
+    color: #F4F8F7;
+    position: absolute;
+    bottom: 3px;
+    padding: 15px;
+    border-radius: 0px 15px 15px 15px;
+}
+.nav .nav-item{
+    
+    display:inline-block;
+	margin-left:20px;
+	height:20px;
+}
+
+.nav-item a{
+    color:#F4F8F7;
+	text-decoration:none;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: 1px solid;
+    border-radius: 15px;
+    padding: 10px;
+    color: #F4F8F7;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    
+}
+.nav-item a:hover{
+    color: #39A125;
+    background-color: #F4F8F7;
+    border: 1px solid #ffffff
+}
+
+form .detail-pengguna .input-box{
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);  
+}
+.detail-pengguna .input-box .required{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #A6A4A8;;
+}
+.detail-pengguna .input-box input,textarea{
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #17841F;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    background-color: #F4F8F7;
+}
+.required::after{
+    content:"*";
+    color: #DB504A;
+    font-size: 14px;
+}
+.input-box .alamat {
+    border-radius: 5px;
+    border: 1px solid #17841F; 
+    padding: 5px;
+}
+.input-box .alamat input{
+    
+    margin-bottom: 5px;
+    border: none;
+    
+}
+.input-box textarea{
+    min-width: none;
+    min-height: 100px;
+    resize: none;
+    padding-top: 10px;
+}
+.detail-pengguna .input-box input:focus,
+.detail-pengguna .input-box input:valid{
+    
+    border-color: #83C530
+}
+
+.btnkembali{
+    position: absolute;
+    font-size: 30px;
+    color: #FFF;
+    width: 50px;
+    height: 70px;
+    background-color: #83C530;
+    border: none;
+    cursor: pointer;
+    z-index: 100;
+    left: 0px;
+    padding: 15px;
+    padding-right: 40px;
+}
+.btnkembali:hover{
+    transition: all 0.3s;
+    font-size: 35px;
+    background-color: #17841F
+    
+
+}
+.button{
+    display: flex;
+    justify-content: right;
+    
+}
+.button .tmbldaftar{
+    
+    color: #FFF;
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    
+    width: 192px;
+    height: 51px;
+    border-radius: 30px;
+    background: #39A125;
+    border: none;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    
+}
+
+.button .tmbldaftar:hover{
+    background-color: #83C530;
+}
+
+.borderijo{
+    position: absolute;
+    border: 1px solid #17841F ;
+    height: 1000px;
+    width: 1000px;
+    left: 0;
+    z-index: 0;
+}
+
